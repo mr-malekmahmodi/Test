@@ -1,0 +1,142 @@
+*{
+    box-sizing:border-box;
+}
+
+.body{
+   
+   display: inline;
+    z-index: 5;
+    
+    background-image: url(../img/bg-img.png);
+    
+    background-repeat:no-repeat ;
+
+    background-size: cover;
+  
+   
+}
+.img{
+    
+}
+.container{
+    
+   
+
+}
+.text{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    display: inline;
+    z-index: 10;
+    
+}
+
+.content{
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 1200px;
+    background-color: white;
+    border: 1px rgb(207, 207, 207) solid;
+    border-radius: 1rem;
+}
+.form{
+    float: left;
+    width: 58.3333%;
+    margin-top: 5em;
+    
+}
+input{
+margin: 1.5em;
+height: 5em;
+width: 40em;
+border: 1px rgb(207, 207, 207) solid;
+
+     
+}
+.image{
+    float: left;
+    width: 40%;
+    z-index: 10;
+}
+.img2{
+    width: 450px;
+    margin-top: 5em;
+    border-radius: 1em;
+    border: 1px rgb(207, 207, 207) solid;
+}
+.text2{
+    
+    border: 1px rgb(207, 207, 207) solid;
+    
+    width: 150px;
+    z-index: 20;
+    position: absolute;
+    right:6em;
+    top: 66em;
+    background-color: white;
+    border-radius: 1em;
+    padding: 2em 2em;
+    width: 30em;
+
+   
+}
+
+.line{
+    background-color: red;
+    width: 3rem;
+    color: red;
+    border: 1px red solid;
+}
+
+
+.btn{
+    font-family: HelveticaNeue-Bold,helvetica,arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    background: #c60c30;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+    width: 100%;
+    height: auto;
+    white-space: normal;
+    padding: 14px 10px;
+    text-decoration: none;
+    max-width: 300px;
+    line-height: 1.33333;
+    vertical-align: middle;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    align-items: flex-start;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    -webkit-rtl-ordering: logical;
+
+}
+.textfield{
+    display: block;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 4px;    -webkit-font-smoothing: antialiased;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+
+
+
+
+}
